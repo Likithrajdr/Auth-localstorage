@@ -69,6 +69,9 @@ export default function ResetPassword() {
         <h2 className="text-4xl font-bold bg-gradient-to-r from-[#FF4B2B] to-[#FF416C] bg-clip-text text-transparent">
           Reset Password
         </h2>
+        <p className="text-gray-600 mt-2 text-sm">
+          Enter your email and a new password to reset your account access.
+        </p>
       </motion.div>
 
       {error && (

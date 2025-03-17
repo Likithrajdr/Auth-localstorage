@@ -43,6 +43,9 @@ export default function SignIn() {
         <h2 className="text-4xl font-bold bg-gradient-to-r from-[#FF4B2B] to-[#FF416C] bg-clip-text text-transparent">
           Welcome Back
         </h2>
+        <p className="text-gray-600 mt-2 text-sm">
+          Sign in to continue and access your dashboard.
+        </p>
       </motion.div>
 
       {error && (
